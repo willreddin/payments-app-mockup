@@ -8,8 +8,6 @@ gem 'rails', '4.2.5'
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
 
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3s'
 # Use Uglifier as compressor for JavaScript assets
@@ -46,7 +44,10 @@ gem 'figaro'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug'  
+  gem 'byebug'
+
+  # Use sqlite3 as the database for Active Record
+  gem 'sqlite3'
 
 end
 
